@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #0e0e0e;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+        }
+        .header,.content,.footer{
+            margin: 0 140px;
+        }
+        .header{
+            height: 70px;
+            background: #333333;
+        }
+        .header .left{
+            float: left;
+            margin-left: 20px;
+        }
+        .header .right{
+            float: right;
+        }
+        .header .left img{
+            width: 160px;
+            height: 60px;
+        }
+        .header .right ul li{
+            float: right;
+            width: 100px;
+            line-height: 70px;
+            margin-right: 5px;
+        }
+        .header .right ul li>a{
+            color: white;
+        }
+        .content{
+            background: #dedede;
+            padding: 25px;
+        }
+        .content h2{
+            line-height: 50px;
+        }
+        .content h3{
+            line-height: 45px;
+            color: #7c8aab;
+        }
+        .content .author{
+            color: #bdc5cb;
+            font-size: 14px;
+        }
+        .content .page{
+            padding: 25px 15px;
+            background: #ffffff;
+            line-height: 25px;
+            margin-bottom: 20px;
+
+        }
+
+        .content p:nth-child(4){
+            text-indent: 2em;
+        }
+        .content .page1 p:nth-child(6){
+            text-indent: 2em;
+        }
+        .content .page1 img,.page2 img {
+            width: 370px;
+            height: 300px;
+        }
+        .content .page3 ul li{
+            border: 1px solid #000;
+            text-align: center;
+            padding: 15px;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+            margin-left: 20px;
+        }
+        .content .page3 ul li img{
+            width: 100%;
+            height: 100px;
+        }
+        .content .page4 ol{
+            margin: 10px;
+            margin-left: 48px;
+            line-height: 26px;
+        }
+        .content .page4 table,thead,tr,td{
+            border: 2px solid #cccccc;
+            border-collapse:collapse;
+        }
+        .content  table{
+            width: 100%;
+        }
+        .content .page4 table .tHead{
+            background: #333333;
+            color: #ffffff;
+            text-align: left;
+        }
+        .content .page4 tr:nth-last-child(1){
+            background: #cccccc;
+        }
+        .content .page5 .title{
+            border: 5px solid #cccccc;
+            padding-left: 10px;
+            border-style: none none none solid;
+        }
+       .content .page5 form .top>tr,td{
+           margin: 10px;
+           border: none;
+       }
+        .content .page5 form .top>tr{
+            margin: 100px;
+            width: 150px;
+        }
+        .content .page5 form table tr td:nth-child(1){
+            text-align: right;
+        }
+        .content .page5 input[type='submit']{
+            width: 100%;
+            background: #3355d0;
+            height:45px;
+            border-radius: 15px;
+            color: white;
+            font-size: 18px;
+        }
+        .footer {
+            height: 60px;
+            background: #000000;
+        }
+        .footer .db{
+            width: 100px;
+            height: 50px;
+            margin: 0 auto;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class='header'>
+        <div class="left">
+            <h1>
+                <img src="img/baidulogo.png" alt="">
+            </h1>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="">导航链接一</a></li>
+                <li><a href="">导航链接二</a></li>
+                <li><a href="">导航链接三</a></li>
+                <li><a href="">导航链接四</a></li>
+            </ul>
+        </div>
+</div>
+    <div class="content">
+        <div class="page1 page">
+            <h2>文章一级标题</h2>
+            <h3>文章二级标题</h3>
+            <span class="author">文章作者 文章发布时间</span>
+            <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>
+            这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>
+            这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com/">这是一个链接到http://ife.baidu.com/</a>这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+            <img src="img/01.jpg" alt="">
+            <p>这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com/" target="_blank">这是一个链接到http://ife.baidu.com/</a>这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+        </div>
+        <div class="page2 page">
+            <h2>另一篇文章的一级标题</h2>
+            <h3>文章二级标题</h3>
+            <span class="author">文章作者 文章发布时间</span>
+            <p>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>
+                这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，换行了<br>
+                这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com/">这是一个链接到http://ife.baidu.com/</a>这是一个很长的段落，这是一个很长的段落，<b>这里有个粗体字</b>这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。</p>
+            <img src="img/01.jpg" alt="">
+            <ul>
+                <li>列表项目一</li>
+                <li>列表项目二</li>
+                <li>列表项目三</li>
+            </ul>
+        </div>
+        <div class="page3 page">
+            <h2>图片</h2>
+            <ul>
+                <li>
+                    <p>好看的图片</p> <br>
+                    <img src="img/01.jpg" alt=""><br>
+                </li>
+                <li>
+                    <p>好看的图片</p> <br>
+                    <img src="img/01.jpg" alt=""><br>
+                </li>
+                <li>
+                    <p>好看的图片</p> <br>
+                    <img src="img/01.jpg" alt=""><br>
+                </li>
+                <li>
+                    <p>好看的图片</p> <br>
+                    <img src="img/01.jpg" alt=""><br>
+                </li>
+                <li>
+                    <p>好看的图片</p> <br>
+                    <img src="img/01.jpg" alt=""><br>
+                </li>
+            </ul>
+        </div>
+        <div class="page4 page">
+            <h2>最后一篇文章一级标题</h2>
+            <h3>文章二级标题</h3>
+            <span class="author">文章作者 文章发布时间</span>
+            <ol>
+                <li>排名1</li>
+                <li>排名2</li>
+                <li>排名3</li>
+            </ol>
+            <p>下边是一个表格，给表格加一个border="1"好让你看出是一个表格</p>
+            <table>
+                <tr class="tHead">
+                    <th>表头</th>
+                    <th>表头</th>
+                    <th>表头</th>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="">操作</a></td>
+                </tr>
+                <tr>
+                    <td>表内容单元格</td>
+                    <td>表内容单元格</td>
+                    <td><a href="">操作</a></td>
+                </tr>
+                <tr>
+                    <td>总计</td>
+                    <td colspan="2">1000</td>
+                </tr>
+            </table>
+        </div>
+        <div class="page5 page">
+            <div class="title">
+                <h2>以后这是一个侧栏，这是侧栏的标题</h2>
+            </div>
+            <form action="">
+                <table class="top">
+                    <tr>
+                        <td>请输入邮箱地址：</td>
+                        <td><input type="email" placeholder="这是一个文本输入框"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span class="author">邮箱地址请按照要求格式输入</span></td>
+                    </tr>
+                    <tr>
+                        <td>请输入密码：</td>
+                        <td><input type="password" placeholder="这是一个文本输入框"></td>
+                    </tr>
+                    <tr>
+                        <td> 请重复输入密码：</td>
+                        <td> <input type="password" placeholder="这是一个文本输入框"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><span class="author">密码请为6-16为英文数字</span></td>
+                    </tr>
+                    <tr>
+                        <td>性别：</td>
+                        <td><input type="radio" checked="checked" name="Sex" value="male"> 男 <input type="radio" name="Sex" value="female"> 女</td>
+                    </tr>
+                    <tr>
+                        <td>城市：</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="BJ">北京</option>
+                                <option value="SH">上海</option>
+                                <option value="SZ">深圳</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>爱好：</td>
+                        <td>
+                            <input type="checkbox"> 运动 <input type="checkbox"> 艺术 <input type="checkbox"> 科学
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>个人描述：</td>
+                        <td><textarea name="" id="" cols="30" rows="5" placeholder="这是一个多行输入框，输入您的个人描述"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <input type="submit" value="确认提交"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="db"><span>版权所有&copy</span></div>
+
+    </div>
+</div>
+</body>
+</html>

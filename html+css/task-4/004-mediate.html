@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 00px;
+            padding: 0;
+        }
+        .container{
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            background: #cccccc;
+            margin-left: -200px;
+            left: 50%;
+            top: 50%;
+            margin-top: -100px;
+
+        }
+        .container .top,.bottom{
+            border: 1px solid #fc0;
+            width: 50px;
+            height: 50px;
+            background: #fc0;
+
+        }
+        .container .top{
+            border-radius: 0 0 50px 0;
+        }
+        .container .bottom{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            border-radius: 50px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="top"></div>
+    <div class="bottom"></div>
+</div>
+</body>
+</html>

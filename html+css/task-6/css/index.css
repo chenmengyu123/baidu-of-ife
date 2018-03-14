@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: #000;
+}
+
+.container {
+    background: url("../img-006/bg.png");
+    width: 960px;
+    height: 1386px;
+    margin: 0 auto;
+}
+
+.container .banner {
+    width: 892px;
+    border-width: 0 0 2px 0;
+    border-color: #938e8c;
+    border-style: solid;
+    margin: 0 auto;
+
+}
+
+.clearbox:after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.container .banner .top_left {
+    background: url("../img-006/leftblock.png") no-repeat;
+    background-position: -46px 0;
+    position: relative;
+    width: 110px;
+    height: 61px;
+    float: left;
+}
+
+.container .banner .top_right {
+    height: 61px;
+    position: relative;
+    float: right;
+}
+
+.container .banner .top_left>h1{
+    position: absolute;
+    bottom: 0;
+    display: inline;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: SimHei;
+}
+.container .banner .top_right > span {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: #d45d5c;
+    font-family: SimHei;
+}
+.content{
+    width: 892px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.content .page1{
+    position: relative;
+}
+.content .leftTop{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 641px;
+    height: 301px;
+    background:url("../img-006/left_top_pic.png");
+    background-position:-44px -96px;
+}
+.content .leftTop .redMask{
+    float: right;
+    width: 191px;
+    height: 301px;
+    background: rgba(255,0,0,.4);
+}
+.content .leftTop .greenMask{
+    width: 191px;
+    height: 301px;
+    float: left;
+    background: rgba(154,205,50,.5);
+}
+.content .page1 .rightTop{
+    position: absolute;
+    right: 0;
+    width: 203px;
+    border-width: 2px 0 0 0;
+    border-color: #cc8091;
+    border-style: solid;
+}
+.content .rightTop .top_title_a .top_title_A{
+    font-size: 24px;
+    color: #000000;
+    font-family: "Microsoft YaHei UI";
+    margin-top: 10px;
+    text-decoration: underline;
+}
+.content .rightTop .top_title_a .top_title_A .abut{
+    font-size: 18px;
+    line-height: 40px;
+}
+
