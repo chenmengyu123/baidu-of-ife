@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c93895e-43f1-4264-b939-60f028513289" name="Default" comment="second-commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/QQmusic/css/index.css" afterPath="$PROJECT_DIR$/QQmusic/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/QQmusic/image/1.jpg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/QQmusic/index.html" afterPath="$PROJECT_DIR$/QQmusic/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -51,7 +49,17 @@
         <entry file="file://$PROJECT_DIR$/QQmusic/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
-              <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+              <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/QQmusic/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -228,12 +236,12 @@
       <workItem from="1520900471477" duration="6687000" />
       <workItem from="1520909957557" duration="16644000" />
       <workItem from="1520986338036" duration="2442000" />
-      <workItem from="1520989318645" duration="28970000" />
+      <workItem from="1520989318645" duration="29261000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71646000" />
+    <option name="totallyTimeSpent" value="71937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -433,8 +441,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/QQmusic/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2729">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="100">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -442,7 +450,7 @@
     <entry file="file://$PROJECT_DIR$/QQmusic/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
-          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <caret line="30" column="37" lean-forward="false" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
           <folding />
         </state>
       </provider>
