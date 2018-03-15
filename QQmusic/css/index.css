@@ -22,7 +22,7 @@ html,body,.container{
     z-index: -2;
 }
 .container .backgroundImg{
-    background: url("../image/cover.jpg") no-repeat;
+    background: url("../image/sz.jpg") no-repeat;
     background-size: cover;
     -webkit-filter: blur(10pex);
     filter: blur(7px);
