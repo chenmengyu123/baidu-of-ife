@@ -14,7 +14,7 @@ task5:http://htmlpreview.github.io/?https://github.com/chenmengyu123/baidu-of-if
 
 task6:http://htmlpreview.github.io/?https://github.com/chenmengyu123/baidu-of-ife/blob/master/html%2Bcss/task-6/006-newspaper.html
 
-task7:
+task7:http://htmlpreview.github.io/?https://github.com/chenmengyu123/baidu-of-ife/blob/master/html%2Bcss/task-6/006-newspaper.html
 
 task8:
 
