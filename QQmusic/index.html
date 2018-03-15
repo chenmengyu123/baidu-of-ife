@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ音乐</title>
+    <link rel="stylesheet" href="css/H-ui.reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--处理rem-->
+    <script>
+        ~function () {
+            computedFont();
+            window.addEventListener('resize',computedFont,false);
+            function computedFont() {
+                var devivceW=document.documentElement.clientWidth;
+                if(devivceW>640)return;
+                document.documentElement.style.fontSize=devivceW/640*100+'px';
+            }
+        }();
+    </script>
+</head>
+<body>
+
+<section class="container">
+    <!--audio-->
+    <audio src="image/libai.mp3" preload="none" id="musicAudio"></audio>
+    <div class="backgroundImg"></div>
+    <div class="background"></div>
+    <header class="header">
+        <div class="content">
+            <img src="image/cover.jpg" alt="">
+            <h2>
+                <span>李白</span>
+                <span>李荣浩</span>
+            </h2>
+            <a href="javascript:;" class="musicBtn"></a></div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="progress"><span class="current">00:00</span><span class="duration">00:00</span>
+            <div class="proBg">
+                <div class="already"></div>
+            </div>
+        </div>
+        <a href="javascript:;" class="down">下载这首音乐</a></footer>
+
+</section>
+<script src="js/zepto.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

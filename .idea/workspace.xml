@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c93895e-43f1-4264-b939-60f028513289" name="Default" comment="second-commit">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/css/H-ui.reset.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/img/lb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/img/left_top_pic.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/img/pic2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/img/pic3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/html+css/task-6/img/rb_mask.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/html+css/123.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/006-newspaper.html" afterPath="$PROJECT_DIR$/html+css/task-6/006-newspaper.html" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/css/index.css" afterPath="$PROJECT_DIR$/html+css/task-6/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/img-/bg.png" afterPath="$PROJECT_DIR$/html+css/task-6/img/bg.png" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/img-/greenmask.png" afterPath="$PROJECT_DIR$/html+css/task-6/img/greenmask.png" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/img-/left_top_pic.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/img-/leftblock.png" afterPath="$PROJECT_DIR$/html+css/task-6/img/leftblock.png" />
-      <change beforePath="$PROJECT_DIR$/html+css/task-6/img-/redmask.png" afterPath="$PROJECT_DIR$/html+css/task-6/img/redmask.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,7 +21,7 @@
           <file leaf-file-name="006-newspaper.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html+css/task-6/006-newspaper.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="500">
+                <state relative-caret-position="-224">
                   <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -129,7 +114,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="439" />
     <option name="y" value="-27" />
     <option name="width" value="1037" />
@@ -235,15 +220,15 @@
       <workItem from="1520900471477" duration="6687000" />
       <workItem from="1520909957557" duration="16644000" />
       <workItem from="1520986338036" duration="2442000" />
-      <workItem from="1520989318645" duration="27599000" />
+      <workItem from="1520989318645" duration="28483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70275000" />
+    <option name="totallyTimeSpent" value="71159000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -338,14 +323,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html+css/css-006/index.css" />
     <entry file="file://$PROJECT_DIR$/html+css/006-newspaper.html" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html+css/123.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -401,7 +378,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html+css/task-6/006-newspaper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
+        <state relative-caret-position="-224">
           <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -422,6 +399,14 @@
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
