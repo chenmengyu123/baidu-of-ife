@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        span{
+            display: inline-block;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<script>
+    var str='';
+    for (var i=1;i<=9;i++){
+        str+='<div>';
+        for(var j=1;j<=i;j++) {
+            str += '<span>' + i + '*' + j + '=' + j * i + '</span>';
+        }
+        str=str+'</div>';
+    }
+    document.write(str);
+    var box=document.getElementsByTagName('div');
+    for (var k=0;k<box.length;k++){
+       if(k%2){
+           box[k].style.backgroundColor='pink';
+       }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 300px;
+            margin: 0 auto;
+
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            /*height: 400px;*/
+        }
+        li{
+            height: 20px;
+            background: red;
+            width: 100px;
+            float: left;
+        }
+        .box>div{
+            text-align: center;
+            margin-top: 20px;
+            width: 300px;
+            height: 300px;
+            display: none;
+            background: yellow;
+            line-height: 300px;
+        }
+        .box .show{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ul>
+    <div class="show">123</div>
+    <div>456</div>
+    <div>789</div>
+</div>
+
+
+<script>
+    var btn=document.getElementsByTagName('li');
+    var divs=document.getElementsByTagName('div');
+    for(var i=0;i<btn.length;i++){
+        btn[i].onclick=function () {
+
+            }
+        }
+</script>
+</body>
+</html>
