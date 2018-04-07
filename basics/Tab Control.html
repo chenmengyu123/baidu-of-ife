@@ -24,7 +24,10 @@
             width: 100px;
             float: left;
         }
-        .box>div{
+        .box ul li.active{
+            background-color: green;
+        }
+        .box div{
             text-align: center;
             margin-top: 20px;
             width: 300px;
@@ -33,32 +36,99 @@
             background: yellow;
             line-height: 300px;
         }
-        .box .show{
+        .box div.active{
             display: block;
         }
     </style>
 </head>
 <body>
-<div class="box">
+<div id="Tab1" class="box">
     <ul>
-        <li>a</li>
-        <li>b</li>
-        <li>c</li>
+        <li class="active">综艺</li>
+        <li>娱乐</li>
+        <li>新闻</li>
     </ul>
-    <div class="show">123</div>
-    <div>456</div>
-    <div>789</div>
+    <div class="active">综艺内容</div>
+    <div>娱乐内容</div>
+    <div>新闻内容</div>
+</div>
+<div id="Tab2" class="box">
+    <ul>
+        <li class="active">综艺</li>
+        <li>娱乐</li>
+        <li>新闻</li>
+    </ul>
+    <div class="active">综艺内容</div>
+    <div>娱乐内容</div>
+    <div>新闻内容</div>
+</div>
+<div id="Tab3" class="box">
+    <ul>
+        <li class="active">综艺</li>
+        <li>娱乐</li>
+        <li>新闻</li>
+    </ul>
+    <div class="active">综艺内容</div>
+    <div>娱乐内容</div>
+    <div>新闻内容</div>
 </div>
 
-
 <script>
-    var btn=document.getElementsByTagName('li');
-    var divs=document.getElementsByTagName('div');
-    for(var i=0;i<btn.length;i++){
-        btn[i].onclick=function () {
-
-            }
+    function Tab(options) {
+        this.el=options.el;
+        this.select=options.select||0;
+        this.init();
+    }
+    //获取操作元素
+    Tab.prototype.getEle=function () {
+        var container=document.getElementById(this.el);
+        this.oLis=container.getElementsByTagName('li');
+        this.oDiv=container.getElementsByTagName('div');
+        this.l=this.oLis.length;
+        return this;
+    };
+    //绑定事件
+    Tab.prototype.bindEvent=function () {
+        var that =this;
+        for(var i=0;i<this.l;i++){
+            this.oLis[i].n=i;
+            this.oLis[i].onmouseover=function () {
+                that.removeClass().changeTab(this.n);
+            };
         }
+        return this;
+    };
+    //清空样式
+    Tab.prototype.removeClass=function () {
+        for(var i=0;i<this.l;i++){
+            this.oLis[i].className=this.oDiv[i].className='';
+        }
+        return this;
+    };
+    //切换选项
+    Tab.prototype.changeTab=function (n) {
+        this.oLis[n].className=this.oDiv[n].className='active';
+        return this;
+    };
+    Tab.prototype.init=function () {
+        this.getEle().bindEvent();
+        if(this.select>this.l-1){
+            this.select=0;
+        }
+        this.removeClass().changeTab(this.select);
+    };
+    new Tab({
+        el:'Tab1',
+        select:1
+        }
+    );
+    new Tab({
+        el:'Tab2'
+    });
+    new Tab({
+        el:'Tab3',
+        select:2
+    });
 </script>
 </body>
 </html>
